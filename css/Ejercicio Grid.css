@@ -1,0 +1,52 @@
+body{
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+.gridcont{
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(3,20rem);
+  grid-template-rows: repeat(3,20rem);
+  margin: 1rem;
+  padding: 1rem;
+}
+.rosa{
+  background-color: pink;
+  grid-column: 1/2;
+  grid-row: 1/3;
+  margin: 0.5rem;
+}
+.gris1{
+  background-color: gray;
+  grid-column: 2/3;
+  grid-row: 1/2;
+  margin: 0.5rem;
+}
+.gris2{
+  background-color: gray;
+  grid-column: 3/4;
+  grid-row: 1/2;
+  margin: 0.5rem;
+}
+.gris3{
+  background-color: gray;
+  grid-column: 2/3;
+  grid-row: 2/3;
+  margin: 0.5rem;
+}
+.gris4{
+  background-color: gray;
+  grid-column: 3/4;
+  grid-row: 2/3;
+  margin: 0.5rem;
+}
+.celeste{
+  background-color: cyan;
+  grid-column: 1/4;
+  grid-row: 3/4;
+  margin: 0.5rem;
+  
+}

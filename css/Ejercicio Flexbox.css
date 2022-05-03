@@ -1,0 +1,54 @@
+
+body{
+  display: flex;
+    justify-content: center;
+}
+.conteiner{
+  Width:60rem;
+  Height:97.75rem;
+  justify-content: space-evenly;
+  display: flex;
+  flex-direction: column;
+  align-items:center ;
+}
+.cel{
+  background-color: cyan;
+  width: 15.25rem;
+  height: 15.25rem;
+}
+.rs{
+  background-color: #ff6666;
+  width: 25.125rem;
+  height: 15.25rem;
+}
+.azul{
+  background-color: #46599c;
+  width: 47.125rem;
+  height: 54.8125rem;
+}
+.nar{
+  background-color: #de8080;
+  width: 22.3125rem;
+  height: 15.25rem;
+}
+.celestes{
+  width: 100%;
+  display: flex;
+  flex-direction:row ;
+  justify-content: space-evenly;
+}
+.rosas{
+  
+  width: 100%;
+  display: flex;
+  flex-direction:row ;
+  justify-content: space-evenly;
+}
+.azul{
+  width:54.8125rem ;
+  Height:47.125rem; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}

@@ -4,9 +4,60 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/normalise" />
-    <link rel="stylesheet" href="./css/style.css" />
-    <title>Document</title>
+    <title>index</title>
   </head>
-  <body></body>
+  <body>
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+      }
+      nav {
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+      }
+      .boton {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 1rem;
+        background-color: silver;
+        width: 20rem;
+        height: 8rem;
+        border-radius: 2rem;
+        transition: all 0.5s ease-in-out;
+      }
+      .boton:hover {
+        background-color: gold;
+        color: crimson;
+      }
+      a {
+        color: black;
+        font-family: fantasy;
+        text-decoration: none;
+        font-size: 2rem;
+      }
+    </style>
+    <nav>
+      <div class="boton">
+        <a href="html/Media - Queries.html">Media - Queries</a>
+      </div>
+      <div class="boton">
+        <a href="html/Ejercicio Grid.html">Ejercicio Grid</a>
+      </div>
+      <div class="boton">
+        <a href="html/Ejercicio Flexbox.html">Ejercicio Flex</a>
+      </div>
+      <div class="boton">
+        <a href="html/Desafio Grid.html">Desafio Grid</a>
+      </div>
+      <div class="boton">
+        <a href="html/Desafio Flexbox.html">Desafio flex</a>
+      </div>
+    </nav>
+  </body>
 </html>
